@@ -9,7 +9,7 @@ import time
 app = Flask(__name__)
 
 # Hugging Face API Token and Model Configurations
-API_TOKEN = "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"
+API_TOKEN = "your_api_key"
 MODEL_URL = "https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill"
 HEADERS = {"Authorization": f"Bearer {API_TOKEN}"}
 

@@ -12,7 +12,7 @@ nltk.download('punkt')  # Ensure the sentence tokenizer is available
 app = Flask(__name__)
 
 # Groq API Configuration
-API_KEY = "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" # Replace with your Groq API key
+API_KEY = "your_api_key" # Replace with your Groq API key
 client = Groq(api_key=API_KEY)
 
 # PDF Configuration

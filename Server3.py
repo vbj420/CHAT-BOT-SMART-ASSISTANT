@@ -2,7 +2,7 @@
 from groq import Groq
 from sentence_transformers import SentenceTransformer
 
-API_KEY = "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"
+API_KEY = "your_api_key"
 import fitz  # PyMuPDF
 
 def extract_text_from_pdf(pdf_path):
@@ -98,7 +98,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Initialize Groq client
-API_KEY = "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"
+API_KEY = "your_api_key"
 client = Groq(api_key=API_KEY)
 
 # Function to extract text from PDF
